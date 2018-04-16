@@ -1,0 +1,20 @@
+{
+  "name": "basicweb",
+  "version": "1.0.0",
+  "description": "basic web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node helloworld.js"
+  },
+  "author": "Dave Price",
+  "license": "ISC",
+  "dependencies": {
+    "alchemy": "0.0.8",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.0",
+    "sequelize": "^4.37.6",
+    "sqlite3": "^4.0.0",
+    "underscore": "^1.8.3"
+  }
+}
